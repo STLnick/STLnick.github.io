@@ -1,4 +1,98 @@
+:root {
+  --primary-color: #1e90ff;
+  --primary-dark:rgb(21, 102, 184);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* * Classes & IDs * */
+
+.name {
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.name-first-letter {
+  font-size: 24px;
+}
+
+.top-nav {
+  background-color: var(--primary-color);
+  padding: 0.25rem 1rem;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-left,
+.nav-right {
+  width: 240px;
+}
+
+.nav-logo {
+  height: 50px;
+  margin-right: 0.5rem;
+  width: 50px;
+}
+
+.nav-social {
+  height: 35px;
+  width: 35px;
+}
+
+.scroll-list,
+.social-list {
+  list-style-type: none;
+}
+
+.scroll-list-item,
+.social-list-item {
+  margin: 0 0.75rem;
+}
+
+.social-list-item a {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.4s;
+}
+
+.scroll-list-item a {
+  border-bottom: 2px solid transparent;
+  color: #fff;
+  transition: border-bottom 0.4s;
+}
+
+.scroll-list-item a:focus,
+.scroll-list-item a:hover,
+.social-list-item a:focus,
+.social-list-item a:hover {
+  border-bottom: 2px solid var(--primary-dark);
+}
+
+.test-spacer {
+  height: 125vh;
+  background-color: #888;
+}
+
 /* * Reusuable Classes * */
+
+/* SVG color change classes */
+
+.filter-primary {
+  filter: invert(44%) sepia(21%) saturate(4746%) hue-rotate(189deg) brightness(99%) contrast(104%);
+}
+
+.filter-white {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(227deg) brightness(111%) contrast(103%);
+}
+
+/* Flexbox classes */
 
 .flex {
   display: flex;
