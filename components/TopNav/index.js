@@ -1,3 +1,9 @@
 
 
-export const TopNav = () => `<h1>TopNav</h1>`
+export const TopNav = () => `
+  <div class="top-nav flex flex--justify-around">
+    <div>
+      <img src="" alt="" />
+    </div>
+  </div>
+`
