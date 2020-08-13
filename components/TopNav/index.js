@@ -4,6 +4,8 @@ const linkedInIcon = require('../../img/logo-linkedin.svg')
 const twitterIcon = require('../../img/logo-twitter.svg')
 const mailIcon = require('../../img/mail.svg')
 
+// TODO: Need to figure out scroll-to for different sections the a tags aren't working
+
 export const TopNav = () => `
   <div class="top-nav flex flex--align-center flex--justify-between">
     <div class="nav-left flex flex--align-center">

@@ -1,1 +1,6 @@
+export { About } from './About'
+export { Blog } from './Blog'
+export { Contact } from './Contact'
+export { Home } from './Home'
+export { Portfolio } from './Portfolio'
 export { TopNav } from './TopNav'
