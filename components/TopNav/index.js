@@ -18,7 +18,7 @@ export const TopNav = () => `
           <a href="home">Home</a>
         </li>
         <li class="scroll-list-item">
-          <a href="about">About</a>
+          <button id="about-btn" href="about">About</button>
         </li>
         <li class="scroll-list-item">
           <a href="portfolio">Portfolio</a>
