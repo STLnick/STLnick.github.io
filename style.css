@@ -29,6 +29,7 @@ a {
   padding: 0.25rem 1rem;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .nav-left,
@@ -84,6 +85,20 @@ a {
   position: relative;
   top: 3.5rem;
   width: 100vw;
+}
+
+.hero-text-container {
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 1rem 2rem;
+}
+
+.hero-text {
+  color: white;
+  font-size: 52px;
+  font-weight: 200;
 }
 
 /* TESTER */
