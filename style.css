@@ -1,6 +1,6 @@
 :root {
   --primary-color: #1e90ff;
-  --primary-dark:rgb(21, 102, 184);
+  --primary-dark: rgb(21, 102, 184);
 }
 
 * {
@@ -75,9 +75,21 @@ a {
   border-bottom: 2px solid var(--primary-dark);
 }
 
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  top: 3.5rem;
+  width: 100vw;
+}
+
+/* TESTER */
 .test-spacer {
-  height: 125vh;
   background-color: #888;
+  height: 125vh;
 }
 
 /* * Reusuable Classes * */
