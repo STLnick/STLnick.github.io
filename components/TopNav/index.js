@@ -1,8 +1,8 @@
-const stlIconSrc = require('../../img/stl.svg')
-const githubIcon = require('../../img/logo-github.svg')
-const linkedInIcon = require('../../img/logo-linkedin.svg')
-const twitterIcon = require('../../img/logo-twitter.svg')
-const mailIcon = require('../../img/mail.svg')
+import stlIconSrc from '../../img/stl.svg'
+import githubIcon from '../../img/logo-github.svg'
+import linkedInIcon from '../../img/logo-linkedin.svg'
+import twitterIcon from '../../img/logo-twitter.svg'
+import mailIcon from '../../img/mail.svg'
 
 // TODO: Need to figure out scroll-to for different sections the a tags aren't working
 
