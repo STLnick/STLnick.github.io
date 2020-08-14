@@ -1,1 +1,3 @@
-export const Blog = () => '<h4 id="blog">Blog</h4>'
+export const Blog = () => `<section class="section blog">
+  <h3 class="heading">Blog</h3>
+</section>`
