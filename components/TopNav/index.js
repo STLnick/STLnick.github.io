@@ -56,5 +56,4 @@ export const TopNav = () => `
       </ul>
     </div>
   </div>
-  <div class="test-spacer"></div>
 `
