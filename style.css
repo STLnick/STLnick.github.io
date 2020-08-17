@@ -1,6 +1,7 @@
 :root {
   --primary-color: #1e90ff;
   --primary-dark: rgb(21, 102, 184);
+  --secondary-color: #f9f871;
 }
 
 * {
@@ -67,14 +68,15 @@ a {
 .scroll-list-item a {
   border-bottom: 2px solid transparent;
   color: #fff;
-  transition: border-bottom 0.4s;
+  transition: all 0.4s;
 }
 
 .scroll-list-item a:focus,
 .scroll-list-item a:hover,
 .social-list-item a:focus,
 .social-list-item a:hover {
-  border-bottom: 2px solid var(--primary-dark);
+  border-bottom: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .hero {
@@ -105,10 +107,91 @@ a {
   padding: 2rem;
 }
 
-/* TESTER */
-.test-spacer {
-  background-color: #888;
-  height: 125vh;
+.projects {
+  margin: 1rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.project-card {
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  margin: 1rem 2rem;
+  padding: 1rem;
+  width: 300px;
+}
+
+.project-title {
+  color: var(--primary-color);
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.project-img {
+  border: 2px solid #616161;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.project-btn-container {
+  margin: 0.5rem 0 1rem;
+  width: 60%;
+}
+
+.project-btn {
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+  padding: 0.25rem 0.75rem;
+  transition: color, background-color 0.4s;
+}
+
+.project-btn:focus,
+.project-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+}
+
+figcaption {
+  height: 115px;
+}
+
+.project-tools {
+  height: 140px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.tool-icon {
+  height: 35px;
+  margin: 0.5rem;
+}
+
+.portfolio-footer-text {
+  font-size: 20px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.portfolio-footer-text > a {
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  transition: color, border-bottom 0.4s;
+}
+
+.portfolio-footer-text > a:focus,
+.portfolio-footer-text > a:hover {
+  border-bottom: 2px solid var(--primary-dark);
+  color: var(--primary-dark);
+}
+
+.about {
+  background-color: #eee;
+}
+
+.contact {
+  background-color: #eee;
 }
 
 /* * Reusuable Classes * */
@@ -118,6 +201,7 @@ a {
   color: var(--primary-color);
   font-size: 44px;
   font-weight: 200;
+  margin: 2rem 0 4rem 0;
   width: 30%;
 }
 
@@ -163,6 +247,10 @@ a {
 
 .flex--justify-end {
   justify-content: flex-end;
+}
+
+.flex--justify-evenly {
+  justify-content: space-evenly;
 }
 
 .flex--wrap {
