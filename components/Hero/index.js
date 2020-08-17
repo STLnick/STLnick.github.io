@@ -1,4 +1,4 @@
-import heroImage from '../../img/archascii.png'
+import heroImage from '../../img/gateway-arch.jpg'
 
 console.log(heroImage)
 
