@@ -1,4 +1,12 @@
-import { Blog, Contact, Hero, Portfolio, Skills, TopNav } from './components'
+import {
+  Blog,
+  Contact,
+  Footer,
+  Hero,
+  Portfolio,
+  Skills,
+  TopNav
+} from './components'
 
 document.querySelector('#root').innerHTML = `
 ${TopNav()}
@@ -7,6 +15,7 @@ ${Skills()}
 ${Portfolio()}
 ${Blog()}
 ${Contact()}
+${Footer()}
 `
 
 document.querySelector('#about-btn').addEventListener('click', () => {
