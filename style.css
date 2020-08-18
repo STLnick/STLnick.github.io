@@ -104,7 +104,7 @@ a {
   font-weight: 200;
 }
 
-.section {
+.portfolio {
   padding: 2rem;
 }
 
@@ -228,6 +228,10 @@ figcaption {
 }
 
 /* * Reusuable Classes * */
+
+.section {
+  padding: 4rem 2rem 6rem 2rem;
+}
 
 .heading {
   border-bottom: 2px solid var(--primary-dark);
