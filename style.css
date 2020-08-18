@@ -309,6 +309,7 @@ figcaption {
   font-size: 32px;
   font-weight: 200;
   margin: 1rem;
+  text-align: center;
 }
 
 .contact-text:first-of-type {
