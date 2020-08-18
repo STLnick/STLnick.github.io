@@ -1,10 +1,10 @@
-import { About, Blog, Contact, Hero, Portfolio, TopNav } from './components'
+import { Blog, Contact, Hero, Portfolio, Skills, TopNav } from './components'
 
 document.querySelector('#root').innerHTML = `
 ${TopNav()}
 ${Hero()}
+${Skills()}
 ${Portfolio()}
-${About()}
 ${Blog()}
 ${Contact()}
 `
