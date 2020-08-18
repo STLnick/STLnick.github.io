@@ -256,6 +256,39 @@ figcaption {
   font-weight: 500;
 }
 
+.hex::before {
+  border-bottom: 30px solid var(--primary-color);
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: -30px;
+  width: 0;
+}
+
+.hex {
+  background-color: var(--primary-color);
+  height: 60px;
+  margin: 2rem;
+  position: relative;
+  width: 104px;
+}
+
+.hex::after {
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+  border-top: 30px solid var(--primary-color);
+  bottom: -30px;
+  content: "";
+  position: absolute;
+  width: 0;
+}
+
+.hex > img {
+  height: 75%;
+}
+
 /* SVG color change classes */
 
 .filter-primary {
