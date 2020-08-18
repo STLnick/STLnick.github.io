@@ -301,6 +301,18 @@ figcaption {
   background-color: #eee;
 }
 
+
+footer {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  width: 100%;
+}
+
+.footer-list {
+  list-style-type: none;
+  width: 200px;
+}
+
 /* * Reusuable Classes * */
 
 .section {
