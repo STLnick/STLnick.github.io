@@ -238,7 +238,7 @@ figcaption {
   border-bottom: 2px solid var(--primary-color);
   color: var(--primary-color);
   cursor: pointer;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .post-img {
@@ -285,7 +285,7 @@ figcaption {
 .post-footer-link {
   border-bottom: 2px solid white;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   transition: all 0.4s;
 }
 
@@ -294,13 +294,47 @@ figcaption {
   border-bottom: 2px solid var(--secondary-color);
   color: var(--secondary-color);
   cursor: pointer;
-  font-size: 14px;
+  font-weight: 500;
 }
 
 .contact {
   background-color: #eee;
 }
 
+.contact-text {
+  color: var(--primary-color);
+  font-size: 32px;
+  font-weight: 200;
+  margin: 1rem;
+}
+
+.contact-text:first-of-type {
+  color: var(--primary-dark);
+  font-weight: 400;
+}
+
+.message-btn {
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  color: white;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  transition: all 0.4s;
+}
+
+.message-btn:focus,
+.message-btn:hover {
+  background-color: var(--primary-dark);
+  border: 2px solid var(--primary-dark);
+  color: white;
+}
+
+.message-btn > img {
+  margin-right: 0.5rem;
+  width: 25px;
+}
 
 footer {
   background-color: var(--primary-color);
