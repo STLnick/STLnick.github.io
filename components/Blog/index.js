@@ -34,10 +34,10 @@ export const Blog = () => `<section class="section blog">
       <img class="post-img" src="${postImg2}" />
       <div class="post-content flex flex--column flex--align-center flex--justify-between">
         <blockquote class="post-text">
-          If you've learned the traditional class-based React Components and you're now trying to move into Hooks there's a few things along the way that'll throw you for a loop.
+          For just over a year now we've had access to this shiny new feature React Hooks. I'm sure most of us have at least heard of it.
         </blockquote>
         <div class="post-footer flex flex--align-center flex--justify-around">
-          <p class="post-date">10 August 2020</p>
+          <p class="post-date">3 August 2020</p>
           <a class="post-footer-link" href="https://dev.to/stlnick/starting-with-react-hooks-2l0b">
             Full Article
           </a>
@@ -56,10 +56,10 @@ export const Blog = () => `<section class="section blog">
       </div>
       <div class="post-content flex flex--column flex--align-center flex--justify-between">
         <blockquote class="post-text">
-          If you've learned the traditional class-based React Components and you're now trying to move into Hooks there's a few things along the way that'll throw you for a loop.
+          If you're using Components then you'll end up needing at least a little knowledge of how the Component Lifecycle operates.
         </blockquote>
         <div class="post-footer flex flex--align-center flex--justify-around">
-          <p class="post-date">10 August 2020</p>
+          <p class="post-date">17 August 2020</p>
           <a class="post-footer-link" href="https://dev.to/stlnick/react-lifecycle-methods-4lh4">
             Full Article
           </a>
