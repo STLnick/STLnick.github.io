@@ -212,20 +212,89 @@ figcaption {
   padding: 1.5rem;
 }
 
+.post {
+  border: 2px solid var(--primary-dark);
+  color: #777777;
+  height: 425px;
+}
+
+.post-top {
+  height: 50%;
+}
+
+.post-title {
+  margin-bottom: 0.5rem;
+  padding: 0.75rem 0 0;
+}
+
+.post-link {
+  border-bottom: 2px solid transparent;
+  color: var(--primary-dark);
+  transition: all 0.4s;
+}
+
+.post-link:focus,
+.post-link:hover {
   border-bottom: 2px solid var(--primary-color);
   color: var(--primary-color);
-  transition: color, border-bottom 0.4s;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.post-img {
+  border-radius: 1.5rem;
+  max-height: 175px;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.post-content {
+  background-color: var(--primary-dark);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  height: 100%;
+  padding: 0.5rem 0.5rem 1rem;
+}
+
+.post-text {
+  line-height: 1.75rem;
+}
+
+.post-text::before {
+  color: var(--secondary-color);
+  content: open-quote;
+  font-size: 24px;
+}
+
+.post-text::after {
+  color: var(--secondary-color);
+  content: close-quote;
+  font-size: 24px;
+}
+
+.post-footer {
+  width: 100%;
+}
+
+.post-date {
+  font-size: 12px;
+  font-weight: 200;
 }
 
 .post-footer-link {
   border-bottom: 2px solid white;
   color: white;
   font-size: 12px;
+  transition: all 0.4s;
 }
 
-.about {
-  background-color: #eee;
+.post-footer-link:focus,
+.post-footer-link:hover {
   border-bottom: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+  font-size: 14px;
 }
 
 .contact {
