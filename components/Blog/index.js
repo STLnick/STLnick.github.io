@@ -49,7 +49,7 @@ export const Blog = () => `<section class="section blog">
       <div class="post-top">
         <h4 class="post-title">
           <a class="post-link" href="https://dev.to/stlnick/react-lifecycle-methods-4lh4">
-            React Lifecycle Methods-The Basics
+            Lifecycle Methods-The Basics
           </a>
         </h4>
         <img class="post-img" src="${postImg3}" />
