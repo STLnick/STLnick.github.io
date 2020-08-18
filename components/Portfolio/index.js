@@ -87,5 +87,5 @@ export const Portfolio = () => `<section class="section portfolio">
       </div>
     </figure>
   </div>
-  <p class="portfolio-footer-text">Checkout many more of my small projects on <a href="https://github.com/STLnick">GitHub</a> as well as some non-JavaScript focused projects.</p>
+  <p class="section-footer-text">Checkout many more of my small projects on <a href="https://github.com/STLnick">GitHub</a> as well as some non-JavaScript focused projects.</p>
 </section>`

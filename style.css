@@ -211,14 +211,15 @@ figcaption {
   transition: color, border-bottom 0.4s;
 }
 
-.portfolio-footer-text > a:focus,
-.portfolio-footer-text > a:hover {
-  border-bottom: 2px solid var(--primary-dark);
-  color: var(--primary-dark);
+.post-footer-link {
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 12px;
 }
 
 .about {
   background-color: #eee;
+  border-bottom: 2px solid var(--secondary-color);
 }
 
 .contact {
@@ -234,6 +235,25 @@ figcaption {
   font-weight: 200;
   margin: 2rem 0 4rem 0;
   width: 30%;
+}
+
+.section-footer-text {
+  font-size: 20px;
+  margin: 2rem 0 0;
+  text-align: center;
+}
+
+.section-footer-text > a {
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  transition: all 0.4s;
+}
+
+.section-footer-text > a:focus,
+.section-footer-text > a:hover {
+  border-bottom: 2px solid var(--primary-dark);
+  color: var(--primary-dark);
+  font-weight: 500;
 }
 
 /* SVG color change classes */
