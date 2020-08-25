@@ -17,14 +17,45 @@ ${Blog()}
 ${Contact()}
 ${Footer()}
 `
-// Testing scrolling...
-document.querySelector('#about-btn').addEventListener('click', () => {
-  document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })
+
+// Scroll to events for buttons
+const skillsBtns = Array.from(document.querySelectorAll('.skills-btn'))
+skillsBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelector('.skills').scrollIntoView({ behavior: 'smooth', block: 'start' })
+  })
+})
+
+const blogBtns = document.querySelectorAll('.blog-btn')
+blogBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelector('.blog').scrollIntoView({ behavior: 'smooth', block: 'start' })
+  })
+})
+
+const contactBtns = document.querySelectorAll('.contact-btn')
+contactBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelector('.contact').scrollIntoView({ behavior: 'smooth', block: 'start' })
+  })
+})
+
+const homeBtns = document.querySelectorAll('.home-btn')
+homeBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelector('.hero').scrollIntoView({ behavior: 'smooth', block: 'start' })
+  })
+})
+
+const portfolioBtns = document.querySelectorAll('.portfolio-btn')
+portfolioBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelector('.portfolio').scrollIntoView({ behavior: 'smooth', block: 'start' })
+  })
 })
 
 // Change nav svg color on hover
 const navSocialLinks = Array.from(document.querySelectorAll('.nav-social'))
-
 navSocialLinks.forEach(link => {
   link.addEventListener('mouseover', () => {
     link.classList.toggle('filter-white')
