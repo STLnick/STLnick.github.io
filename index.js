@@ -18,7 +18,7 @@ ${Contact()}
 ${Footer()}
 `
 
-// Scroll to events for buttons
+/* * Scroll to events for buttons * */
 const skillsBtns = Array.from(document.querySelectorAll('.skills-btn'))
 skillsBtns.forEach(btn => {
   btn.addEventListener('click', () => {
@@ -47,7 +47,7 @@ portfolioBtns.forEach(btn => {
   })
 })
 
-// Change nav svg color on hover
+/* * Change nav svg color on hover * */
 const navSocialLinks = Array.from(document.querySelectorAll('.nav-social'))
 navSocialLinks.forEach(link => {
   link.addEventListener('mouseover', () => {
@@ -60,6 +60,7 @@ navSocialLinks.forEach(link => {
   })
 })
 
+/* * Resume, modal and overlay features * */
 const modal = document.querySelector('.modal')
 const overlay = document.querySelector('.overlay')
 const resumeBtn = document.querySelector('.modal-btn')
@@ -85,8 +86,8 @@ window.addEventListener('click', (event) => {
   }
 })
 
-// Show/Hide Mobile Menu on button click
+/* * Show/Hide Mobile Menu on button click * */
 const mobileMenuBtn = document.querySelector('.mobile-menu-btn')
 mobileMenuBtn.addEventListener('click', () => {
-  mobileMenuBtn.classList.toggle() // TODO: Create an 'active' class to toggle
+  document.querySelector('.mobile-menu').classList.toggle('is-active') // TODO: Create an 'active' class to toggle
 })

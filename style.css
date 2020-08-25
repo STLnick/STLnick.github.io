@@ -421,6 +421,7 @@ footer {
 }
 
 .mobile-menu {
+  display: none;
   padding: 0.5rem;
 }
 
@@ -430,6 +431,10 @@ footer {
 
 .mobile-menu > .scroll-list > .scroll-list-item > a {
   color: var(--primary-color);
+}
+
+.is-active {
+  display: block;
 }
 
 /* * Reusuable Classes * */
