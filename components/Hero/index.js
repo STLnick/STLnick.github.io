@@ -8,4 +8,4 @@ export const Hero = () => `<div class="hero flex flex--align-center flex--justif
     <h2 class="hero-text">a JavaScript Web Developer.</h2>
     <h2 class="hero-text">I ❤️ STL and making sites.</h2>
   </div>
-</div > `
+</div >`
