@@ -28,14 +28,11 @@ const navSocialLinks = Array.from(document.querySelectorAll('.nav-social'))
 navSocialLinks.forEach(link => {
   link.addEventListener('mouseover', () => {
     link.classList.toggle('filter-white')
-    link.classList.toggle('filter-secondary')
+    link.classList.toggle('filter-test')
   })
-})
-
-navSocialLinks.forEach(link => {
   link.addEventListener('mouseleave', () => {
     link.classList.toggle('filter-white')
-    link.classList.toggle('filter-secondary')
+    link.classList.toggle('filter-test')
   })
 })
 
