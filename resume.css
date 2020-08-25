@@ -89,8 +89,9 @@ section {
   width: 45%;
 }
 
-.sidebar section {
-  margin-bottom: 1.75rem;
+.education,
+.skills {
+  margin-bottom: 1.25rem;
 }
 
 .main-content {
@@ -152,7 +153,7 @@ section {
   margin: 1rem 0 0.5rem 0;
 }
 
-.project-title {
+.project-title--resume {
   color: var(--resume-primary);
   font-size: 16px;
   font-weight: 700;

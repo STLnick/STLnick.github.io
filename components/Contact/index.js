@@ -3,6 +3,7 @@ import easelIcon from '../../img/easel.svg'
 import mailIcon from '../../img/mail.svg'
 import phoneIcon from '../../img/call.svg'
 
+import devIcon from '../../img/logo-dev.svg'
 import githubIcon from '../../img/logo-github.svg'
 import linkedInIcon from '../../img/logo-linkedin.svg'
 import twitterIcon from '../../img/logo-twitter.svg'
@@ -33,29 +34,41 @@ export const Contact = () => `<section class="section contact">
             <h1 class="title">Nick Ray</h1>
             <p class="title-subtext">Full Stack JavaScript Web Developer</p>
           </div>
-          <div class="header-right">
-            <ul class="contact-list">
-              <li class="flex flex--align-center">
-                <img class="contact-icon filter-resume-secondary" src="${phoneIcon}" alt="Phone icon">
-                636-751-4849
-              </li>
-              <li class="flex flex--align-center">
-                <img class="contact-icon filter-resume-secondary" src="${mailIcon}" alt="Mail icon">
+          <div class="header-right flex">
+          <ul class="contact-list flex flex--column flex--justify-center">
+            <li class="flex flex--align-center">
+              <img class="contact-icon filter-resume-secondary" src="${phoneIcon}" alt="Phone icon">
+              636-751-4849
+            </li>
+
+            <li class="flex flex--align-center">
+              <img class="contact-icon filter-resume-secondary" src="${mailIcon}" alt="Mail icon">
+              <a class="contact-link" href="mailto:nickrray@gmail.com">
                 nickrray@gmail.com
-              </li>
-              <li class="flex flex--align-center">
-                <img class="contact-icon filter-resume-secondary" src="${linkedInIcon}" alt="LinkedIn logo">
-                <a class="contact-link" href="https://www.linkedin.com/in/nicholas-ray-87a399125/">LinkedIn</a>
-              </li>
-              <li class="flex flex--align-center">
-                <img class="contact-icon filter-resume-secondary" src="${githubIcon}" alt="GitHub logo">
-                <a class="contact-link" href="https://github.com/STLnick">GitHub</a>
-              </li>
-              <li class="flex flex--align-center">
-                <img class="contact-icon filter-resume-secondary" src="${easelIcon}" alt="Easel icon">
-                <a class="contact-link" href="https://stlnick.github.io/">Portfolio Site</a>
-              </li>
-            </ul>
+              </a>
+            </li>
+
+            <li class="flex flex--align-center">
+              <img class="contact-icon filter-resume-secondary" src="${linkedInIcon}" alt="LinkedIn logo">
+              <a class="contact-link" href="https://www.linkedin.com/in/nicholas-ray-87a399125/">LinkedIn</a>
+            </li>
+          </ul>
+          <ul class="contact-list">
+            <li class="flex flex--align-center">
+              <img class="contact-icon filter-resume-secondary" src="${githubIcon}" alt="GitHub logo">
+              <a class="contact-link" href="https://github.com/STLnick">GitHub</a>
+            </li>
+
+            <li class="flex flex--align-center">
+              <img class="contact-icon filter-resume-secondary" src="${devIcon}" alt="Dev logo">
+              <a class="contact-link" href="https://dev.to/stlnick">Dev.to</a>
+            </li>
+
+            <li class="flex flex--align-center">
+              <img class="contact-icon filter-resume-secondary" src="${easelIcon}" alt="Easel icon">
+              <a class="contact-link" href="https://stlnick.github.io/">Portfolio Site</a>
+            </li>
+          </ul>
           </div>
         </header>
         <div class="resume-body flex">
@@ -89,8 +102,13 @@ export const Contact = () => `<section class="section contact">
                   reaching 90% customer satisfaction and repeat customers.
                 </li>
                 <li class="experience-list-item">
-                  Accelerate positive reviews and correct less than ideal experiences to
-                  encourage customers to return.
+                  Help grow annual sales from 4.5 Million in 2018 to over 5 Million in 2019
+                  in the business's fourth year of operation.
+                </li>
+                <li class="experience-list-item">
+                  Improve review
+                  rankings from 4.0 to at least 4.5 on Google, Yelp, and Facebook at time
+                  of departure.
                 </li>
                 <li class="experience-list-item">
                   Create a display of all reviews for team to see that provides
@@ -119,11 +137,11 @@ export const Contact = () => `<section class="section contact">
                 </p>
               </div>
             </section>
-            <section class="projects">
+            <section class="projects--resume">
               <h2 class="resume-heading">Technical Projects</h2>
               <div class="project med-text">
                 <div class="project-head italic flex flex--align-center">
-                  <h4 class="project-title">Omnifood</h4>
+                  <h4 class="project-title--resume">Omnifood</h4>
                   <p class="skills-used med-text">Skills Used: HTML - CSS - JavaScript - PHP</p>
                 </div>
                 <p class="project-links">
@@ -153,7 +171,7 @@ export const Contact = () => `<section class="section contact">
               </div>
               <div class="project med-text">
                 <div class="project-head italic flex flex--align-center">
-                  <h4 class="project-title">Budgety</h4>
+                  <h4 class="project-title--resume">Budgety</h4>
                   <p class="skills-used med-text">Skills Used: HTML - CSS - JavaScript</p>
                 </div>
                 <p class="project-links">
@@ -182,7 +200,7 @@ export const Contact = () => `<section class="section contact">
               </div>
               <div class="project med-text">
                 <div class="project-head italic flex flex--align-center">
-                  <h4 class="project-title">Bowling Database</h4>
+                  <h4 class="project-title--resume">Bowling Database</h4>
                   <p class="skills-used med-text">Skills Used: HTML - CSS - JavaScript - PHP - SQL</p>
                 </div>
                 <p class="project-links">
