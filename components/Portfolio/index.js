@@ -80,10 +80,13 @@ export const Portfolio = () => `<section class="section portfolio">
         A card game to match all pairs on the board. Allows user to choose number of pairs to play with, record their score upon completion and displays the top ten scores.
       </figcaption>
       <div class="project-tools flex flex--align-center flex--justify-evenly flex--wrap">
-        <img class="tool-icon filter-primary" src="${htmlIcon}" />
-        <img class="tool-icon filter-primary" src="${cssIcon}" />
-        <img class="tool-icon filter-primary" src="${javascriptIcon}" />
-        <img class="tool-icon filter-primary" src="${reactIcon}" />
+      <img class="tool-icon filter-primary" src="${htmlIcon}" />
+      <img class="tool-icon filter-primary" src="${cssIcon}" />
+      <img class="tool-icon filter-primary" src="${javascriptIcon}" />
+      <img class="tool-icon filter-primary" src="${reactIcon}" />
+      <img class="tool-icon filter-primary" src="${nodeIcon}" />
+      <img class="tool-icon filter-primary" src="${expressIcon}" />
+      <img class="tool-icon filter-primary" src="${mongodbIcon}" />
       </div>
     </figure>
   </div>
