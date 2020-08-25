@@ -211,7 +211,9 @@ export const Contact = () => `<section class="section contact">
             </section>
           </div>
         </div>
-        <div class="bottom-block"></div>
+        <div class="bottom-block">
+          <p>Preferred Contact Methods - Phone: (636)751-4849 &mdash; Email: nickrray@gmail.com</p>
+        </div>
       </div>
 
     </div>
