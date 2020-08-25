@@ -1,7 +1,7 @@
 // TODO: Change these to actual image files of each project
-import jamcafeImg from '../../img/responsive.svg'
-import imdbImg from '../../img/responsive.svg'
-import concentrationImg from '../../img/responsive.svg'
+import jamcafeImg from '../../img/JamCafe.png'
+import imdbImg from '../../img/ReactIMDB.png'
+import concentrationImg from '../../img/ConcentrationGame.png'
 
 import cssIcon from '../../img/logo-css3.svg'
 import expressIcon from '../../img/logo-express.svg'
