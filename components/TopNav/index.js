@@ -1,8 +1,9 @@
-import stlIconSrc from '../../img/stl.svg'
 import githubIcon from '../../img/logo-github.svg'
+import hamburgerMenuIcon from '../../img/menu.svg'
 import linkedInIcon from '../../img/logo-linkedin.svg'
-import twitterIcon from '../../img/logo-twitter.svg'
 import mailIcon from '../../img/mail.svg'
+import stlIconSrc from '../../img/stl.svg'
+import twitterIcon from '../../img/logo-twitter.svg'
 
 // TODO: Need to figure out scroll-to for different sections the a tags aren't working
 
