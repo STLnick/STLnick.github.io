@@ -91,3 +91,9 @@ window.addEventListener('click', (event) => {
     overlay.style.display = 'none'
   }
 })
+
+// Show/Hide Mobile Menu on button click
+const mobileMenuBtn = document.querySelector('.mobile-menu-btn')
+mobileMenuBtn.addEventListener('click', () => {
+  mobileMenuBtn.classList.toggle() // TODO: Create an 'active' class to toggle
+})
