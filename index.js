@@ -40,13 +40,6 @@ contactBtns.forEach(btn => {
   })
 })
 
-const homeBtns = document.querySelectorAll('.home-btn')
-homeBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelector('.hero').scrollIntoView({ behavior: 'smooth', block: 'start' })
-  })
-})
-
 const portfolioBtns = document.querySelectorAll('.portfolio-btn')
 portfolioBtns.forEach(btn => {
   btn.addEventListener('click', () => {

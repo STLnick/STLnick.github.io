@@ -16,9 +16,6 @@ export const TopNav = () => `
   <div class="nav-center">
     <ul class="scroll-list flex">
       <li class="scroll-list-item">
-        <button class="home-btn">Home</button>
-      </li>
-      <li class="scroll-list-item">
         <button class="skills-btn">Skills</button>
       </li>
       <li class="scroll-list-item">
@@ -63,19 +60,16 @@ export const TopNav = () => `
 <div class="mobile-menu">
   <ul class="scroll-list">
     <li class="scroll-list-item">
-      <button class="home-btn">Home</button>
+      <button class="skills-btn mobile-btn">Skills</button>
     </li>
     <li class="scroll-list-item">
-      <button class="skills-btn">Skills</button>
+      <button class="portfolio-btn mobile-btn">Portfolio</button>
     </li>
     <li class="scroll-list-item">
-      <button class="portfolio-btn">Portfolio</button>
+      <button class="blog-btn mobile-btn">Blog</button>
     </li>
     <li class="scroll-list-item">
-      <button class="blog-btn">Blog</button>
-    </li>
-    <li class="scroll-list-item">
-      <button class="contact-btn">Contact</button>
+      <button class="contact-btn mobile-btn">Contact</button>
     </li>
   </ul>
 </div>
