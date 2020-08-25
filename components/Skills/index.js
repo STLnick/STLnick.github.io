@@ -18,7 +18,7 @@ export const Skills = () => `<section class="section skills">
       <h4 class="skill-title">CSS</h4>
     </div>
 
-    <div class="hex flex flex--column flex--align-center flex--justify-end">
+    <div class="hex dark-hex flex flex--column flex--align-center flex--justify-end">
       <img class="filter-white" src="${htmlIcon}" />
       <h4 class="skill-title">HTML</h4>
     </div>
@@ -28,7 +28,7 @@ export const Skills = () => `<section class="section skills">
       <h4 class="skill-title">JavaScript</h4>
     </div>
 
-    <div class="hex flex flex--column flex--align-center flex--justify-end">
+    <div class="hex dark-hex flex flex--column flex--align-center flex--justify-end">
       <img class="filter-white" src="${reactIcon}" />
       <h4 class="skill-title">React</h4>
     </div>
@@ -38,7 +38,7 @@ export const Skills = () => `<section class="section skills">
       <h4 class="skill-title">NodeJS</h4>
     </div>
 
-    <div class="hex flex flex--column flex--align-center flex--justify-end">
+    <div class="hex dark-hex flex flex--column flex--align-center flex--justify-end">
       <img class="filter-white" src="${expressIcon}" />
       <h4 class="skill-title">ExpressJS</h4>
     </div>
@@ -51,7 +51,7 @@ export const Skills = () => `<section class="section skills">
 
   <div class="concepts flex flex--align-center flex--justify-evenly flex--wrap">
     <div class="concept flex flex--column flex--align-center flex--justify-end">
-      <img class="concept-icon filter-primary" src="${responsiveIcon}" />
+      <img class="concept-icon filter-test" src="${responsiveIcon}" />
       <div class="concept-text flex flex--align-center flex--justify-center">
         <p>
           Half of web traffic is mobile so it is imperative websites are
@@ -62,7 +62,7 @@ export const Skills = () => `<section class="section skills">
     </div>
 
     <div class="concept flex flex--column flex--align-center flex--justify-end">
-      <img class="concept-icon-big filter-primary" src="${bulbIcon}" />
+      <img class="concept-icon-big filter-test" src="${bulbIcon}" />
       <div class="concept-text flex flex--align-center flex--justify-center">
         <p>
           I maintain a focus on an intuitive UI/UX. A good user experience is
@@ -72,7 +72,7 @@ export const Skills = () => `<section class="section skills">
     </div>
 
     <div class="concept flex flex--column flex--align-center flex--justify-end">
-      <img class="concept-icon filter-primary" src="${bookIcon}" />
+      <img class="concept-icon filter-test" src="${bookIcon}" />
       <div class="concept-text flex flex--align-center flex--justify-center">
         <p>
           Technology moves fast. As a developer it's important to continue to
