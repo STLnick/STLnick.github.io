@@ -56,5 +56,8 @@ export const TopNav = () => `
         </li>
       </ul>
     </div>
+    <button class="mobile-menu-btn">
+      <img class="hamburger-icon filter-white" src="${hamburgerMenuIcon}" />
+    </button>
   </div>
 `
