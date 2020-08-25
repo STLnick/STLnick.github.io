@@ -413,6 +413,18 @@ footer {
   width: 35px;
 }
 
+.mobile-menu {
+  padding: 0.5rem;
+}
+
+.mobile-menu > .scroll-list > .scroll-list-item {
+  padding: 0.5rem;
+}
+
+.mobile-menu > .scroll-list > .scroll-list-item > a {
+  color: var(--primary-color);
+}
+
 /* * Reusuable Classes * */
 
 .section {
