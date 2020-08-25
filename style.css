@@ -570,3 +570,15 @@ footer {
     display: none;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .hero-text {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .hero-text {
+    font-size: 20px;
+  }
+}
