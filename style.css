@@ -557,6 +557,10 @@ footer {
 /* * Media Queries * */
 
 @media screen and (max-width: 768px) {
+  .mobile-menu-btn {
+    display: block;
+  }
+
   .hero-text {
     font-size: 32px;
   }
