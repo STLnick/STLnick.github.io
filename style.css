@@ -67,17 +67,24 @@ a {
   transition: border-bottom 0.4s;
 }
 
-.scroll-list-item a {
+.scroll-list-item button {
+  background: transparent;
+  border: none;
   border-bottom: 2px solid transparent;
   color: #fff;
   transition: border-bottom 0.4s;
 }
 
-.scroll-list-item a:focus,
-.scroll-list-item a:hover,
+.scroll-list-item .mobile-btn {
+  color: var(--primary-color);
+}
+
+.scroll-list-item button:focus,
+.scroll-list-item button:hover,
 .social-list-item a:focus,
 .social-list-item a:hover {
   border-bottom: 2px solid var(--secondary-color);
+  cursor: pointer;
 }
 
 .hero {
