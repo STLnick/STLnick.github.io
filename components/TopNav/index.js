@@ -60,4 +60,23 @@ export const TopNav = () => `
       <img class="hamburger-icon filter-white" src="${hamburgerMenuIcon}" />
     </button>
   </div>
+<div class="mobile-menu">
+  <ul class="scroll-list">
+    <li class="scroll-list-item">
+      <button class="home-btn">Home</button>
+    </li>
+    <li class="scroll-list-item">
+      <button class="skills-btn">Skills</button>
+    </li>
+    <li class="scroll-list-item">
+      <button class="portfolio-btn">Portfolio</button>
+    </li>
+    <li class="scroll-list-item">
+      <button class="blog-btn">Blog</button>
+    </li>
+    <li class="scroll-list-item">
+      <button class="contact-btn">Contact</button>
+    </li>
+  </ul>
+</div>
 `
