@@ -81,13 +81,11 @@ a {
 }
 
 .hero {
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: no-repeat center;
+  background-size: cover;
   height: 300px;
   overflow: hidden;
   position: relative;
-  width: 100%;
 }
 
 .hero-text-container {
