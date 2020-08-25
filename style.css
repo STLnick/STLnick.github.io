@@ -421,11 +421,23 @@ footer {
 }
 
 .mobile-menu {
+  background: white;
+  border: 2px solid var(--primary-dark);
+  border-radius: 5px;
   display: none;
-  padding: 0.5rem;
+  float: right;
+  margin-top: 5px;
+  padding: 1rem 0.5rem;
+  text-align: right;
+  width: 40%;
+}
+
+.mobile-menu > .scroll-list {
+  margin-bottom: 0.5rem;
 }
 
 .mobile-menu > .scroll-list > .scroll-list-item {
+  border-bottom: 1px solid var(--primary-dark);
   padding: 0.5rem;
 }
 
