@@ -14,7 +14,7 @@ import reactIcon from '../../img/logo-react.svg'
 export const Portfolio = () => `<section class="section portfolio">
   <h3 class="heading">Portfolio</h3>
   <div class="projects flex flex--align-center flex--justify-evenly flex--wrap">
-    <figure class="project-card flex flex--column flex--align-center">
+    <figure class="project-card flex flex--column flex--align-center flex--justify-between">
       <h4 class="project-title">Jam Cafe</h4>
       <img class="project-img" src="${jamcafeImg}" />
       <div class="project-btn-container flex flex--justify-around">
@@ -40,7 +40,7 @@ export const Portfolio = () => `<section class="section portfolio">
       </div>
     </figure>
 
-    <figure class="project-card flex flex--column flex--align-center">
+    <figure class="project-card flex flex--column flex--align-center flex--justify-between">
       <h4 class="project-title">IMDB Movie Search</h4>
       <img class="project-img" src="${imdbImg}" />
       <div class="project-btn-container flex flex--justify-around">
@@ -65,7 +65,7 @@ export const Portfolio = () => `<section class="section portfolio">
       </div>
     </figure>
 
-    <figure class="project-card flex flex--column flex--align-center">
+    <figure class="project-card flex flex--column flex--align-center flex--justify-between">
       <h4 class="project-title">Concentration Card Game</h4>
       <img class="project-img" src="${concentrationImg}" />
       <div class="project-btn-container flex flex--justify-around">
