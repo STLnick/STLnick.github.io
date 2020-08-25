@@ -401,6 +401,20 @@ footer {
   z-index: 2;
 }
 
+.mobile-menu-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+.hamburger-icon {
+  width: 35px;
+}
+
 /* * Reusuable Classes * */
 
 .section {
