@@ -50,7 +50,7 @@ export const Contact = () => `<section class="section contact">
 
             <li class="flex flex--align-center">
               <img class="contact-icon filter-resume-secondary" src="${linkedInIcon}" alt="LinkedIn logo">
-              <a class="contact-link" href="https://www.linkedin.com/in/nicholas-ray-87a399125/">LinkedIn</a>
+              <a class="contact-link" href="https://www.linkedin.com/in/nickrray/">LinkedIn</a>
             </li>
           </ul>
           <ul class="contact-list">
