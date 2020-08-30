@@ -425,28 +425,28 @@ footer {
   border: 2px solid var(--primary-dark);
   border-radius: 5px;
   display: none;
-  float: right;
   margin-top: 5px;
   padding: 1rem 0.5rem;
   text-align: right;
-  width: 40%;
+}
+
+.is-active {
+  display: block;
 }
 
 .mobile-menu > .scroll-list {
   margin-bottom: 0.5rem;
+  width: 100%;
 }
 
 .mobile-menu > .scroll-list > .scroll-list-item {
   border-bottom: 1px solid var(--primary-dark);
+  font-size: 20px;
   padding: 0.5rem;
 }
 
 .mobile-menu > .scroll-list > .scroll-list-item > a {
   color: var(--primary-color);
-}
-
-.is-active {
-  display: block;
 }
 
 /* * Reusuable Classes * */
