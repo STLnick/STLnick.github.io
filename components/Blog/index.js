@@ -1,6 +1,6 @@
 import postImg1 from '../../img/useEffect-async.png'
 import postImg2 from '../../img/react-hooks.jpg'
-import postImg3 from '../../img/lifecycle.png'
+import postImg3 from '../../img/mern-deploy.jpeg'
 
 export const Blog = () => `<section class="section blog">
   <h3 class="heading">Blog</h3>
@@ -48,19 +48,19 @@ export const Blog = () => `<section class="section blog">
     <div class="post flex flex--column flex--align-center">
       <div class="post-top">
         <h4 class="post-title">
-          <a class="post-link" href="https://dev.to/stlnick/react-lifecycle-methods-4lh4">
-            Lifecycle Methods-The Basics
+          <a class="post-link" href="https://dev.to/stlnick/how-to-deploy-a-full-stack-mern-app-with-heroku-netlify-ncb">
+            How To Deploy A MERN App
           </a>
         </h4>
         <img class="post-img" src="${postImg3}" />
       </div>
       <div class="post-content flex flex--column flex--align-center flex--justify-between">
         <blockquote class="post-text">
-          If you're using Components then you'll end up needing at least a little knowledge of how the Component Lifecycle operates.
+        So you've got a cool project you'd like to show off to the world, how do we deploy a full-stack MERN app?
         </blockquote>
         <div class="post-footer flex flex--align-center flex--justify-around">
-          <p class="post-date">17 August 2020</p>
-          <a class="post-footer-link" href="https://dev.to/stlnick/react-lifecycle-methods-4lh4">
+          <p class="post-date">29 August 2020</p>
+          <a class="post-footer-link" href="https://dev.to/stlnick/how-to-deploy-a-full-stack-mern-app-with-heroku-netlify-ncb">
             Full Article
           </a>
         </div>
