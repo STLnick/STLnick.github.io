@@ -44,10 +44,10 @@ export const Portfolio = () => `<section class="section portfolio">
       <h4 class="project-title">IMDB Movie Search</h4>
       <img class="project-img" src="${imdbImg}" />
       <div class="project-btn-container flex flex--justify-around">
-        <a href="https://github.com/STLnick/concentration-game" target="_blank">
+        <a href="https://github.com/STLnick/react-imdb" target="_blank">
           <button class="project-btn">Code</button>
         </a>
-        <a href="https://imdbmoviesearch.netlify.app/" target="_blank">
+        <a href="https://react-imdb-search.netlify.app/" target="_blank">
           <button class="project-btn">Demo</button>
         </a>
       </div>
