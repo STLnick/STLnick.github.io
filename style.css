@@ -1,8 +1,11 @@
 :root {
   --primary-color: #1e90ff;
   --primary-dark: rgb(21, 102, 184);
-  --secondary-color: #f65349;
-  --secondary-color-dark: #b83b35;
+  --light-shade: #F5F7F2;
+  --dark-shade: #1D141F;
+  --light-accent: #6895B6;
+  --dark-accent: #B33E5A;
+  --dark-accent-darker: #832c41;
 }
 
 * {
@@ -76,14 +79,14 @@ a {
 }
 
 .scroll-list-item .mobile-btn {
-  color: var(--primary-color);
+  color: #777;
 }
 
 .scroll-list-item button:focus,
 .scroll-list-item button:hover,
 .social-list-item a:focus,
 .social-list-item a:hover {
-  border-bottom: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--dark-shade);
   cursor: pointer;
 }
 
@@ -110,7 +113,7 @@ a {
 }
 
 .portfolio {
-  background-color: #eee;
+  background-color: var(--dark-shade);
 }
 
 .projects {
@@ -121,9 +124,8 @@ a {
 
 .project-card {
   background-color: white;
-  border: 2px solid var(--secondary-color);
   border-radius: 10px;
-  box-shadow: 8px 6px #b83c3556;
+  box-shadow: 8px 6px var(--light-accent);
   height: 595px;
   margin: 1rem 2rem;
   padding: 1rem 2rem;
@@ -148,7 +150,7 @@ a {
 }
 
 .project-btn {
-  background-color: rgba(21, 102, 184, 0.15);
+  background-color: transparent;
   border: 2px solid var(--primary-color);
   border-radius: 5px;
   color: var(--primary-color);
@@ -191,13 +193,20 @@ figcaption {
 
 .concept,
 .post {
-  background-color: white;
-  border: 2px solid var(--primary-dark);
   border-radius: 10px;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   height: 340px;
   margin: 1rem;
   text-align: center;
   width: 300px;
+}
+
+.concept {
+  background-color: var(--dark-shade);
+}
+
+.concept-accent {
+  background-color: var(--dark-accent);
 }
 
 .concept-icon {
@@ -210,7 +219,7 @@ figcaption {
 }
 
 .concept-text {
-  background-color: var(--primary-dark);
+  background-color: var(--dark-shade);
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   color: white;
@@ -218,7 +227,12 @@ figcaption {
   padding: 1.5rem;
 }
 
+.concept-text-accent {
+  background-color: var(--dark-accent);
+}
+
 .post {
+  background-color: white;
   border: 2px solid var(--primary-dark);
   color: #777777;
   height: 425px;
@@ -241,8 +255,8 @@ figcaption {
 
 .post-link:focus,
 .post-link:hover {
-  border-bottom: 2px solid var(--secondary-color);
-  color: var(--secondary-color);
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--primary-color);
   cursor: pointer;
   font-size: 17px;
 }
@@ -297,8 +311,8 @@ figcaption {
 
 .post-footer-link:focus,
 .post-footer-link:hover {
-  border-bottom: 2px solid var(--secondary-color);
-  color: var(--secondary-color);
+  border-bottom: 2px solid #ddd;
+  color: #ddd;
   cursor: pointer;
   font-weight: 500;
 }
@@ -308,7 +322,7 @@ figcaption {
 }
 
 .contact-text {
-  color: var(--primary-color);
+  color: var(--dark-shade);
   font-size: 32px;
   font-weight: 200;
   margin: 1rem;
@@ -316,13 +330,13 @@ figcaption {
 }
 
 .contact-text:first-of-type {
-  color: var(--primary-dark);
+  color: var(--dark-accent);
   font-weight: 400;
 }
 
 .message-btn {
-  background-color: var(--secondary-color);
-  border: 2px solid var(--secondary-color);
+  background-color: var(--dark-accent);
+  border: 2px solid var(--dark-accent);
   border-radius: 5px;
   color: white;
   margin: 1rem;
@@ -333,9 +347,9 @@ figcaption {
 
 .modal-btn {
   background-color: white;
-  border: 2px solid var(--secondary-color);
+  border: 2px solid var(--dark-accent);
   border-radius: 5px;
-  color: var(--secondary-color);
+  color: var(--dark-accent);
   margin: 1rem;
   padding: 0.5rem 1rem;
   text-transform: uppercase;
@@ -346,8 +360,8 @@ figcaption {
 .message-btn:hover,
 .modal-btn:focus,
 .modal-btn:hover {
-  background-color: var(--secondary-color-dark);
-  border: 2px solid var(--secondary-color-dark);
+  background-color: var(--dark-accent-darker);
+  border: 2px solid var(--dark-accent-darker);
   color: white;
   cursor: pointer;
 }
@@ -440,7 +454,7 @@ footer {
 }
 
 .mobile-menu > .scroll-list > .scroll-list-item {
-  border-bottom: 1px solid var(--primary-dark);
+  border-bottom: 1px solid var(--dark-shade);
   font-size: 20px;
   padding: 0.5rem;
 }
@@ -456,18 +470,26 @@ footer {
 }
 
 .heading {
-  border-bottom: 2px solid var(--secondary-color-dark);
-  color: var(--secondary-color);
+  border-bottom: 2px solid var(--light-accent);
+  color: var(--dark-shade);
   font-size: 44px;
   font-weight: 200;
   margin: 0 0 4rem 0;
   width: 30%;
 }
 
+.light-heading {
+  color: var(--light-shade);
+}
+
 .section-footer-text {
   font-size: 20px;
   margin: 2rem 0 0;
   text-align: center;
+}
+
+.section-footer-text-light {
+  color: var(--light-shade);
 }
 
 .section-footer-text > a {
@@ -478,8 +500,8 @@ footer {
 
 .section-footer-text > a:focus,
 .section-footer-text > a:hover {
-  border-bottom: 2px solid var(--secondary-color-dark);
-  color: var(--secondary-color-dark);
+  border-bottom: 2px solid var(--primary-dark);
+  color: var(--primary-dark);
   font-weight: 500;
 }
 
@@ -496,6 +518,7 @@ footer {
 
 .hex {
   background-color: var(--primary-color);
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   height: 60px;
   margin: 2rem;
   position: relative;
@@ -534,16 +557,12 @@ footer {
   filter: invert(44%) sepia(21%) saturate(4746%) hue-rotate(189deg) brightness(99%) contrast(104%);
 }
 
-.filter-secondary {
-  filter: invert(99%) sepia(42%) saturate(1839%) hue-rotate(335deg) brightness(91%) contrast(137%);
-}
-
-.filter-test {
-  filter: invert(53%) sepia(90%) saturate(3316%) hue-rotate(330deg) brightness(96%) contrast(100%);
-}
-
 .filter-white {
   filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(227deg) brightness(111%) contrast(103%);
+}
+
+.filter-dark-shade {
+  filter: invert(5%) sepia(8%) saturate(3537%) hue-rotate(243deg) brightness(93%) contrast(91%);
 }
 
 /* Flexbox classes */
@@ -618,6 +637,15 @@ footer {
 
   .project-card {
     height: 625px;
+    margin: 1rem;
+  }
+
+  .section {
+    padding: 4rem 1rem 6rem;
+  }
+
+  .tool-icon {
+    height: 30px;
   }
 }
 

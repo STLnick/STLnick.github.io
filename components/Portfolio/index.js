@@ -12,7 +12,7 @@ import nodeIcon from '../../img/logo-nodejs.svg'
 import reactIcon from '../../img/logo-react.svg'
 
 export const Portfolio = () => `<section class="section portfolio">
-  <h3 class="heading">Portfolio</h3>
+  <h3 class="heading light-heading">Portfolio</h3>
   <div class="projects flex flex--align-center flex--justify-evenly flex--wrap">
     <figure class="project-card flex flex--column flex--align-center flex--justify-between">
       <h4 class="project-title">Jam Cafe</h4>
@@ -90,5 +90,5 @@ export const Portfolio = () => `<section class="section portfolio">
       </div>
     </figure>
   </div>
-  <p class="section-footer-text">Checkout many more of my small projects on <a href="https://github.com/STLnick">GitHub</a> as well as some non-JavaScript focused projects.</p>
+  <p class="section-footer-text section-footer-text-light">Checkout many more of my small projects on <a href="https://github.com/STLnick">GitHub</a> as well as some non-JavaScript focused projects.</p>
 </section>`

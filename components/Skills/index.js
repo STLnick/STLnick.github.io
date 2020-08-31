@@ -51,7 +51,7 @@ export const Skills = () => `<section class="section skills">
 
   <div class="concepts flex flex--align-center flex--justify-evenly flex--wrap">
     <div class="concept flex flex--column flex--align-center flex--justify-end">
-      <img class="concept-icon filter-test" src="${responsiveIcon}" />
+      <img class="concept-icon filter-white" src="${responsiveIcon}" />
       <div class="concept-text flex flex--align-center flex--justify-center">
         <p>
           Half of web traffic is mobile so it is imperative websites are
@@ -62,7 +62,7 @@ export const Skills = () => `<section class="section skills">
     </div>
 
     <div class="concept flex flex--column flex--align-center flex--justify-end">
-      <img class="concept-icon-big filter-test" src="${bulbIcon}" />
+      <img class="concept-icon-big filter-white" src="${bulbIcon}" />
       <div class="concept-text flex flex--align-center flex--justify-center">
         <p>
           I maintain a focus on an intuitive UI/UX. A good user experience is
@@ -71,9 +71,9 @@ export const Skills = () => `<section class="section skills">
       </div>
     </div>
 
-    <div class="concept flex flex--column flex--align-center flex--justify-end">
-      <img class="concept-icon filter-test" src="${bookIcon}" />
-      <div class="concept-text flex flex--align-center flex--justify-center">
+    <div class="concept concept-accent flex flex--column flex--align-center flex--justify-end">
+      <img class="concept-icon filter-white" src="${bookIcon}" />
+      <div class="concept-text concept-text-accent flex flex--align-center flex--justify-center">
         <p>
           Technology moves fast. As a developer it's important to continue to
           learn and embrace it. Learning new tech is exciting and learning quickly
