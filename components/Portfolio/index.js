@@ -18,11 +18,11 @@ export const Portfolio = () => `<section class="section portfolio">
       <h4 class="project-title">Jam Cafe</h4>
       <img class="project-img" src="${jamcafeImg}" />
       <div class="project-btn-container flex flex--justify-around">
-        <a>
+        <a href="https://github.com/STLnick/capstone-react-trial">
           <button class="project-btn">Code</button>
         </a>
         <a>
-          <button class="project-btn">Demo</button>
+          <button disabled class="project-btn">Demo</button>
         </a>
       </div>
       <figcaption class="flex flex--align-center flex--justify-center">
@@ -44,10 +44,10 @@ export const Portfolio = () => `<section class="section portfolio">
       <h4 class="project-title">IMDB Movie Search</h4>
       <img class="project-img" src="${imdbImg}" />
       <div class="project-btn-container flex flex--justify-around">
-        <a>
+        <a href="https://github.com/STLnick/concentration-game">
           <button class="project-btn">Code</button>
         </a>
-        <a>
+        <a href="https://imdbmoviesearch.netlify.app/">
           <button class="project-btn">Demo</button>
         </a>
       </div>
@@ -69,10 +69,10 @@ export const Portfolio = () => `<section class="section portfolio">
       <h4 class="project-title">Concentration Card Game</h4>
       <img class="project-img" src="${concentrationImg}" />
       <div class="project-btn-container flex flex--justify-around">
-        <a>
+        <a href="https://github.com/STLnick/concentration-game">
           <button class="project-btn">Code</button>
         </a>
-        <a>
+        <a href="https://game-concentration.netlify.app/">
           <button class="project-btn">Demo</button>
         </a>
       </div>
