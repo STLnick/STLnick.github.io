@@ -1,5 +1,6 @@
-/dist
-
+.DS_Store
 .cache
-
-/node_modules
+dist
+node_modules
+*.sw*
+.env
